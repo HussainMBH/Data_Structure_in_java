@@ -1,27 +1,18 @@
 package Inheritance_OOP;
+public class Student {
+    static int id = 1;
+    int studentid;
+    String Studentname;
+    int Age;
+    String Grade;
+    String City;
+    public Student(String studentname, int age, String grade, String city){
+        this.Studentname = studentname;
+        this.Age = age;
+        this.Grade = grade;
+        this.City = city;
 
-class newstudent{
-    String Fname;
-    String Lname;
-    String[] Stream = {"Maths", "Bio", "Commerce", "Technology"};
-}
-
-class student01 extends newstudent{
-    public String newregister(){
-        newstudent nwstd = new newstudent();
-        nwstd.Fname = "Bahir";
-        nwstd.Lname = "Hussain";
-        return nwstd.Lname;
-
+        this.studentid = id++;
     }
-}
 
-public class Student{
-    public static void main(String[] args){
-        student01 std01 = new student01();
-
-        String std1 = std01.newregister();
-        System.out.println(std1);
-
-    }
 }
