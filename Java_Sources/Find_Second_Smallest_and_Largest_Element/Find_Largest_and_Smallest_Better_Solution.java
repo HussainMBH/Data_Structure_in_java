@@ -35,10 +35,5 @@ public class Find_Largest_and_Smallest_Better_Solution {
         System.out.println("Second smallest is "+second_small);
         System.out.println("Second largest is "+second_large);
     }
-    public static void main(String[] args)
-    {
-        int[] arr = {1, 2, 4, 6, 7, 5};
-        int n = arr.length;
-        getElements(arr, n);
-    }
+
 }
