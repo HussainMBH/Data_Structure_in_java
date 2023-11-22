@@ -18,5 +18,11 @@ public class FInd_Missing_Number_Array_Hashing {
         // It is just to avoid warnings.
         return -1;
     }
+    public static void main(String args[]) {
+        int l = 5;
+        int a[] = {1, 2, 4, 5};
 
+        int ans = missingNumber(a, l);
+        System.out.println("The missing number is: " + ans);
+    }
 }
