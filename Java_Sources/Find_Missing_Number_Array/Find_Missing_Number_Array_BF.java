@@ -26,5 +26,11 @@ public class Find_Missing_Number_Array_BF {
         //It is just to avoid warnings
         return -1;
     }
+    public static void main(String args[]) {
+        int l = 5;
+        int a[] = {1, 2, 3, 5};
 
+        int ans = missingNumber(a, l);
+        System.out.println("The missing number is: " + ans);
+    }
 }
