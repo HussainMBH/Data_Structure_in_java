@@ -25,6 +25,10 @@ public class Find_the_number_that_once_BF {
         //if the array contains a single element.
         return -1;
     }
-
+    public static void main(String[] args){
+        int ar[] = {1,1,2,3,2,4,4,};
+        int ans = getsingleElement(ar);
+        System.out.println(ans);
+    }
 
 }
