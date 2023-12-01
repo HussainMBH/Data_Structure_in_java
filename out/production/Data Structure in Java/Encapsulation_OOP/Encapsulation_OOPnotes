@@ -1,0 +1,9 @@
+Encapsulation:
+Data Protection:
+1) Private - ATM Pin, Phone Password
+
+2) Default (Package-Private) - Neighbours - pet, pet name
+
+3) Protected - Near and Dear - Relatives - SSLC Mark, job
+
+4) Public - Accessed by all - Shirt, Bus Destination
