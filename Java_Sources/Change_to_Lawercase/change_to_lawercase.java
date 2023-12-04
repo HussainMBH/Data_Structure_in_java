@@ -3,6 +3,10 @@ package Change_to_Lawercase;
 public class change_to_lawercase {
     public static void main(String[] args) {
         String s = "MOhaMed bAhiR HUssAiN";
+        String a = "MOhaMed bAhiR HUssAiN";
+        a = a.toLowerCase();
+        System.out.println(a);
+
         for(int i=0; i< s.length(); i++){
             char ch = s.charAt(i);
             if(ch>= 'A' && ch<= 'Z'){
