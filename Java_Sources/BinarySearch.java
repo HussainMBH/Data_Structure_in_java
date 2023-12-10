@@ -12,7 +12,7 @@ public class BinarySearch {
         while(lb<=ub){ //binary search will run if that be sorted
             int mid  = (lb+ub)/2; // find the mid index
             if(ar[mid] == key){
-                System.out.println("key found at " + ar[mid]);
+                System.out.println("key number " + ar[mid] + " found at " + mid);
                 flag = 1;
                 break;
             } else if (ar[mid]<key) {
