@@ -27,7 +27,7 @@ public class Day13 {
         }
     }
     public static void main(String[] args) {
-        System.out.println("Design Patterns....");
+        System.out.println("Design Patterns");
         System.out.println("Rectangular Star Pattern");
         int N = 5;
         patternRectangualr(N);
