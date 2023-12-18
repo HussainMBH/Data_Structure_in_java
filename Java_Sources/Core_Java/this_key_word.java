@@ -15,7 +15,12 @@ public class this_key_word {
         int z = a+b;
         return z;
     }
-
+    public int addcalculat(int num1, int num2){
+        this.num1 = num1;
+        this.num2 = num2;
+        int z = num1+num1;
+        return z;
+    }
 
     public static void main(String[] args){
        // this_key_word objthis = new this_key_word();
