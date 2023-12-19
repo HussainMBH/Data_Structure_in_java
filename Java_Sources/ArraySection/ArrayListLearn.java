@@ -37,11 +37,7 @@ public class ArrayListLearn {
         //ar.clear(); //Clear all arrays
 
 
-        System.out.println(a);
-        System.out.println("a array is empty? "+a.isEmpty());
-        System.out.println(ar.get(1)); //check in that index what value have in there
-        ar.add(1,150);
-        System.out.println(ar.get(1));
+
 
         System.out.println(ar);
         //System.out.println(ar.add(60));
