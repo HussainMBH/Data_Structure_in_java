@@ -5,13 +5,7 @@ import java.util.ArrayList;
 public class ArrayListLearn {
     public static void main(String[] args){
         ArrayList<String> arr = new ArrayList<String>();
-        arr.add("Mohamed");
-        arr.add("Bahir");
-        arr.add("Hussain");
-        System.out.println(arr);
-        //Size method
-        System.out.println("Size Method "+arr.size());
-        System.out.println("Contains Method "+arr.contains("Bahir")); //Check that value is in there or not
+
 
         ArrayList ar = new ArrayList();
         ar.add(10); // it's not int it's a Integer
@@ -37,7 +31,11 @@ public class ArrayListLearn {
         //ar.clear(); //Clear all arrays
 
 
-
+        System.out.println(a);
+        System.out.println("a array is empty? "+a.isEmpty());
+        System.out.println(ar.get(1)); //check in that index what value have in there
+        ar.add(1,150);
+        System.out.println(ar.get(1));
 
         System.out.println(ar);
         //System.out.println(ar.add(60));
