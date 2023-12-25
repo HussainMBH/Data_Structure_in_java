@@ -37,6 +37,8 @@ public class Find_Largest_and_Smallest_Better_Solution {
     }
     public static void main(String[] args)
     {
-
+        int[] arr = {1, 2, 4, 6, 7, 5};
+        int n = arr.length;
+        getElements(arr, n);
     }
 }
