@@ -1,6 +1,9 @@
 package BasicDSA;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 
 public class Find_even_number {
     public static void main(String[] args) {
@@ -12,6 +15,7 @@ public class Find_even_number {
             }
 
         }
+        Collections.sort(al);
         System.out.println(al);
     }
 }
