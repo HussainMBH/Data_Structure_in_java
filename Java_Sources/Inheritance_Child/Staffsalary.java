@@ -1,6 +1,6 @@
 package Inheritance_Child;
 
-public class Staffsalary {
+public class Staffsalary{
 
     void staffdetails(){
         System.out.println("Name: Bahir");
