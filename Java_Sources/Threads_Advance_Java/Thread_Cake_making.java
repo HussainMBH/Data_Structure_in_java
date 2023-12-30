@@ -10,7 +10,12 @@ class Cakemaking extends Thread{
 
 public class Thread_Cake_making {
     public static void main(String[] args) {
-        Cakemaking ckmng = new Cakemaking();
-        ckmng.start();
+
+        int cakecount = 4;
+        for(int i=0; i<cakecount; i++){
+            Cakemaking ckmng = new Cakemaking();
+            ckmng.start();
+        }
+        //ckmng.run();
     }
 }
