@@ -1,6 +1,6 @@
 package Runnable_Interface;
 
-
+// Runnable interface, in runnable interface have Thread class, it's doing parellel running system
 class Cake_make implements Runnable{
     public void run(){
         System.out.println("Mixing Ingredients for cake " + Thread.currentThread().getId());
