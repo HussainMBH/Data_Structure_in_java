@@ -1,8 +1,8 @@
 package Encapsulation_OOP;
 
 public class Bahirdetails {
-    protected int atmcard = 782284;
-    int pin = 1234;
+    public int atmcard = 782284;
+    protected int pin = 1234;
     public static void main(String[] args) {
         Bahirdetails bhd = new Bahirdetails();
         Hussaindetails hsd = new Hussaindetails();
