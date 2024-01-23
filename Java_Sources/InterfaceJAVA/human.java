@@ -14,8 +14,17 @@ public class human implements companywork, trafficrules{
         System.out.println("Ecommerce Project Update");
     }
 
+    public void speedcontrol(){
+        System.out.println("want to ride under 60km/h speed");
+    }
 
+    public void wearhelmet(){
+        System.out.println("every bike riders should wear helmet for their safety");
+    }
 
+    public void obeyrules(){
+        System.out.println("have many traffic rules so everyone should follow that");
+    }
 
 
     public static void main(String[] args) {
