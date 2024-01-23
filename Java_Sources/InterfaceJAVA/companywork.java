@@ -2,7 +2,7 @@ package InterfaceJAVA;
 
 public interface companywork {
 
-    void morningmeeting();
-    void todotask();
-    void projectupdate();
+   public void morningmeeting();
+    public void todotask();
+    public void projectupdate();
 }
