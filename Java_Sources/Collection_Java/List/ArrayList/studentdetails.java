@@ -3,7 +3,7 @@ package Collection_Java.List.ArrayList;
 import java.util.Scanner;
 
 public class studentdetails {
-   studentslist slist = new studentslist();
+   addstudent slist = new addstudent();
 
     public static void main(String[] args) {
         addname();
