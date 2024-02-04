@@ -38,16 +38,16 @@ public class String_replaceFirst_Logic {
             }
         }
     }
-    private static void replaceFirst(String old, String replacement, int start, int ending){
-        StringBuffer sb = new StringBuffer();
-        for(int i=0; i<start; i++){
-            sb.append(old.charAt(i));
-        }
-        sb.append((replacement + " "));
-
-        for (int i=ending; i<old.length(); i++){
-            sb.append(old.charAt(i));
-        }
-        System.out.println(sb);
-    }
+//    private static void replaceFirst(String old, String replacement, int start, int ending){
+//        StringBuffer sb = new StringBuffer();
+//        for(int i=0; i<start; i++){
+//            sb.append(old.charAt(i));
+//        }
+//        sb.append((replacement + " "));
+//
+//        for (int i=ending; i<old.length(); i++){
+//            sb.append(old.charAt(i));
+//        }
+//        System.out.println(sb);
+//    }
 }
