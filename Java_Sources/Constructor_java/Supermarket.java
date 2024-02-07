@@ -18,13 +18,13 @@ public class Supermarket {
         product1.giveback();
     }
 
-    public void giveback(){
-        System.out.println("You bought " + name + ".");
-        System.out.println("That price is " + price + " with " + discount + " Rupees Discount.");
-    }
-
-    public void sell(){
-        System.out.println("This Product name is " + name);
-        System.out.println("This Product price is " + price + " Rupees with " + discount + " Rupees Discount.");
-    }
+//    public void giveback(){
+//        System.out.println("You bought " + name + ".");
+//        System.out.println("That price is " + price + " with " + discount + " Rupees Discount.");
+//    }
+//
+//    public void sell(){
+//        System.out.println("This Product name is " + name);
+//        System.out.println("This Product price is " + price + " Rupees with " + discount + " Rupees Discount.");
+//    }
 }
