@@ -14,7 +14,6 @@ public class PolymorphismMethodOverloading {
         System.out.println("It's Polymorphism and it's a Method Overloading..." +
                 "Same Name, Same Class and Different Arguments...");
         PolymorphismMethodOverloading p = new PolymorphismMethodOverloading();
-        p.product();
-        p.product(10);
+
     }
 }
