@@ -5,4 +5,8 @@ public class Child extends Parent{
         Child ch = new Child();
         ch.get_admissiion();
     }
+
+    void get_admissiion(){
+        System.out.println("Doctor");
+    }
 }
