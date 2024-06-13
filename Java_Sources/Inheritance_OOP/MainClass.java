@@ -7,5 +7,6 @@ public class MainClass {
         Employee objemp = new Employee();
         objemp.todoprojects();
         objemp.todoTasks();
+        objemp.buyfoods();
     }
 }
