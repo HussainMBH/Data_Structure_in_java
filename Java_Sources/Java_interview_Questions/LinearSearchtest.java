@@ -6,7 +6,7 @@ public class LinearSearchtest {
     }
 }
 
-class LinearSearch{
+class LinearSearchcls{
     void linearsearch(int a[], int x){
         int flag = 0;
         for(int i=0; i<a.length; i++){
