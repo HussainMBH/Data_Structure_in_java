@@ -22,7 +22,5 @@ class SearchingFunctions {
     }
 
 
-    int binarysearch(int a[], int key, int tmp){
 
-    }
 }
