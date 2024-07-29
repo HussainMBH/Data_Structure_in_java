@@ -16,6 +16,7 @@ public class Day11 {
         Searching.Linearsearch(a, key, flag);
         Searching searching = new Searching();
         searching.Binarysearch(a, key,flag, tmp);
+        System.out.println(5+3+'7');
     }
 
 }
