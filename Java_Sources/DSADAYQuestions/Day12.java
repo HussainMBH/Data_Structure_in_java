@@ -16,7 +16,13 @@ public class Day12 {
         }
         System.out.println(al);
         Collections.sort(al);
-        System.out.println(al);
+        System.out.println(al );
+
+        System.out.println("Enter name:");
+        String name = scn.toString();
+        StringBuffer sf = new StringBuffer();
+        sf.append(name);
+        System.out.println(sf.toString());
 
     }
 }
