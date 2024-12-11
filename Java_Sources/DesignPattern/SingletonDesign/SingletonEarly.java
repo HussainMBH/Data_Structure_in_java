@@ -9,6 +9,6 @@ public class SingletonEarly {
     }
 
     public void displayMessage(){
-        System.out.println("I called using Early Instantiation Singleton object");
+        System.out.println("I have called using Early Instantiation Singleton object");
     }
 }
