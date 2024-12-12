@@ -22,7 +22,7 @@ public class SingletonTest {
     }
 
     public void displayMessage(){
-        System.out.println("I have called using Late Instantiation Singleton object");
+        System.out.println("I called using Late Instantiation Singleton object");
     }
 
 }
